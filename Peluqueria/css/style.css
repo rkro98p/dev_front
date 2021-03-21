@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.margin-header{
+    display: flex; 
+    flex-flow: column nowrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*=============================================
+=            HEADER            =
+=============================================*/
+.header{
+    background:#343333;
+    color: #fff;
+    padding: 0.6rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.logo-nav-container{
+    display: flex;
+    flex-flow: row wrap;        
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+.header .logo{
+    flex: 2 1 35%;
+}
+.header .logo img{
+    width: 7.6rem;
+    display: inline-block;
+}
+.header .menu-icon{
+    display: none;
+}
+.header .navigation{
+    list-style: none;
+    margin: 0;
+    padding: 0  ; 
+    flex: 1 1 auto;
+}
+.header .navigation a{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+.header .navigation a:hover{
+    color: #ffc107;
+}
+
+.header .navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    
+}
+.header .navigation ul li{
+    text-align: right;
+}
+
+
+.header .redes {
+    margin: 0;
+    padding: 0; 
+    flex: 1 1 auto;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.header .redes a{
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    color:#a0a0a0;
+    transition: all 0.3s linear;
+}
+
+.header .redes a:hover{
+    color: #fff;
+}
+
+
+/*=============================================
+=            Imagen con Texto            =
+=============================================*/
+div .img-principal{
+    
+}

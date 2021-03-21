@@ -1,0 +1,341 @@
+
+/*=============================================
+=            GLOBAL            =
+=============================================*/
+* {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.contenedor {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+[class*='col-']{
+    float:left;
+    /* border: 1px solid black; */
+    padding: 0 20px;
+}
+/*=============================================
+=    PANTALLA DE ESCRITORIO GRANDE-LARGE (lg)     =
+=============================================*/
+@media(min-width:1200px){
+    .col-lg-12{width:100%;}
+    .col-lg-11{width: 91.6666666%;}
+    .col-lg-10{width: 83,3333333%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-8{width: 66.666666%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-5{width: 41.66666667%}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-1{width: 8.33%;}
+}
+/*=============================================
+=    PANTALLA DE ESCRITORIO MEDIO (md)     =
+=============================================*/
+
+@media(max-width:1199px) and (min-width:992px){
+    .col-md-12{width:100%;}
+    .col-md-11{width: 91.6666666%;}
+    .col-md-10{width: 83,3333333%;}
+    .col-md-9{width: 75%;}
+    .col-md-8{width: 66.666666%;}
+    .col-md-7{width: 58.33%;}
+    .col-md-6{width: 50%;}
+    .col-md-5{width: 41.66666667%}
+    .col-md-4{width: 33.33%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16.66%;}
+    .col-md-1{width: 8.33%;}
+}
+/*=============================================
+=    PANTALLA DE ESCRITORIO SMALL (sm)     =
+=============================================*/
+
+@media(max-width:991px) and (min-width:768px){
+    .col-sm-12{width:100%;}
+    .col-sm-11{width: 91.6666666%;}
+    .col-sm-10{width: 83,3333333%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-8{width: 66.666666%;}
+    .col-sm-7{width: 58.33%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-5{width: 41.66666667%}
+    .col-sm-4{width: 33.33%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 16.66%;}
+    .col-sm-1{width: 8.33%;}
+}
+/*=============================================
+=    PANTALLA DE ESCRITORIO XSMALL (xs)     =
+=============================================*/
+@media(max-width:767px){
+    .col-xs-12{width:100%;}
+    .col-xs-11{width: 91.6666666%;}
+    .col-xs-10{width: 83,3333333%;}
+    .col-xs-9{width: 75%;}
+    .col-xs-8{width: 66.666666%;}
+    .col-xs-7{width: 58.33%;}
+    .col-xs-6{width: 50%;}
+    .col-xs-5{width: 41.66666667%}
+    .col-xs-4{width: 33.33%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-2{width: 16.66%;}
+    .col-xs-1{width: 8.33%;}
+}
+
+
+
+/*=============================================
+=            seccion1            =
+=============================================*/
+
+#seccion1 {
+    height: 52px;
+    box-shadow: 0px 2px 10px rgb(202, 202, 202);
+    font-size: 14px;
+    width: 100%;
+    left: 0;
+    top:0;
+    position: fixed;
+    background: #ffffff;
+    z-index: 10;
+}
+
+
+
+header #nombre{
+    letter-spacing: 4px;    
+    line-height: 52px;
+    color: #000000;
+    padding: 0 10px;
+}
+
+header .opciones {
+    line-height: 52px;
+    text-align: right;
+}
+header .opciones a {
+    color: #000;
+    letter-spacing: 4px;
+}
+
+
+/*=============================================
+=            Seccion 2            =
+=============================================*/
+
+#portada{
+    height: 670px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#portada img{
+    height:100%;
+    width: 100%;
+    padding: 0;
+}
+
+#portada #textoImg{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 10px;
+    top: 300px;
+}
+
+#portada span{
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+#portada b{
+    padding: 15px;
+    background: #000;
+    opacity: 0.6;
+}
+
+
+/*=============================================
+=            Seccion 3            =
+=============================================*/
+ 
+#projects{
+    padding: 20px 20px;
+    width: 100%;
+} 
+
+ div .titulo-seccion{
+    font-size: 16px;
+    border-bottom: 0.1px solid #e4e4e4;
+    padding: 20px 0;  
+    width: 100%;  
+
+} 
+
+div .titulo-seccion h2{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#projects .casa{
+    height: 208px;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+}
+
+#projects img{
+    height: 100%;
+    /* width: 100%; */
+    
+}
+
+#projects span{
+    padding: 15px 30px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #ffffff;
+    background: #000;
+}
+
+/*=============================================
+=            Seccion 4            =
+=============================================*/
+
+#about {
+    padding: 20px 20px;
+    width: 100%;
+}
+
+#about h2
+{
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+#about p {
+    padding: 10px 0;
+}
+
+#about .miembro{
+    width: 100%;
+}
+
+#about .miembro .img-container{
+    width: 100%;
+
+    
+}
+#about img{
+    width: 100%;
+}
+
+#about .miembro p{
+    text-align: justify;
+}
+
+#about .miembro button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background: #f1f1f1;
+}
+
+#about #cargo{
+    color: #666666;
+    font-size: 16px;    
+}
+
+#about button{
+    border: 0;
+    font-size: 16px;
+}
+
+#about .miembro button:hover{
+    background:  #CCCCCC;
+    cursor: pointer;
+}
+
+
+/*=============================================
+=            Seccion 5            =
+=============================================*/
+
+#contacto{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+#contacto input{
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#contacto .descripcion{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#contacto input[type=submit]{
+    height: 50px;
+    width: 152px;
+    text-align: center;
+    background: #000;
+    color: #FFF;
+    font-size: 16px;
+}
+
+
+/*=============================================
+=            Section 6            =
+=============================================*/
+
+#map img{
+    width: 100%;
+}
+
+
+/*=============================================
+=            Seccion 7            =
+=============================================*/
+footer div{
+    height: 82px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 82px;
+}
+
+
+
