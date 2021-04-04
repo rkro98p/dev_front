@@ -1,0 +1,10 @@
+body {
+    font-family: ;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.container-fondo{
+    background-image: url(/img/bg.jpg);
+    
+}

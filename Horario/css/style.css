@@ -1,0 +1,205 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans',sans-serif ;
+    font-size: 1rem;
+    background: #f2f2f2
+    
+}
+
+i {
+    font-family: "FontAwesome";
+}
+.container {
+    background: #fff;
+    width: 90%;
+    /* max-width: 900px ; */
+    margin: 3.5rem auto;
+    display: flex;
+    border-radius: 1rem;
+}
+
+/*=================================
+        Panel Izquierdo
+=================================*/
+.left-panel {
+    background:   #7a40f2;
+    flex: 1 1 25%;
+    border-radius: 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.left-panel .icon{
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+}
+.icon i {
+    color: #E5E7E9;
+    padding: 1rem 0;
+    padding-top: 2.5rem;
+}
+
+.left-panel h3{
+    padding-left: 1rem;
+    font-size: 1.1em;
+}
+
+.materias{
+    max-width: 94%;
+        /* padding-right: 5.5rem; */
+}
+.materias ul {
+    padding-left: 1rem;
+}
+.materias li {
+    list-style: none;    
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.materias>ul>li>div{
+    background: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0.3rem 0;
+    padding: 0.1rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    align-items: center;
+}
+/* .materias>ul>li>div a{ 
+
+} */
+
+.materias>ul>li>div i{
+    color: #7a40f2;
+    font-size: 1.2em;
+}
+.materias>ul>li{
+    display: flex;
+    flex-direction: column; 
+}
+
+.materias>ul>li>div>span{
+    text-decoration: none;
+    color: #574c91;        
+    /* cursor: default; */
+}
+
+.materias>ul>li>div:hover{
+    background: rgb(204, 203, 203);
+    color:#4d3e99;
+    transition-duration: 0.3s;
+}
+
+.titulo-seccion{
+    background: #4c2599;
+    color: rgb(213, 209, 228);
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+.materia-info {
+    color: rgb(198, 184, 223) !important;
+}
+
+.materia-info i{
+    margin-right: 0.5rem;
+}
+
+.materia-info li:hover{
+    color: #4c2599;
+    cursor: pointer;
+}
+
+.materia-info li{
+    
+    display: flex;
+    justify-content: left;
+    margin: 0.5rem 0;
+    font-size: 0.9em;
+}
+
+
+.no-visible{
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+/*=================================
+        Panel Derecho
+=================================*/
+
+.rigth-panel{
+    display: flex;
+    flex: 1 1 70%;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  0.4fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-content: center;
+}
+.rigth-panel h1{
+    margin: 1rem 1rem;
+    color: rgb(163, 158, 185);
+
+}
+
+.dias{
+    background:#6d61c7;
+    border-radius: 1rem;
+    margin: auto 10%;
+    padding: 0.3rem 0;
+    color: #ffffff;
+
+    
+}
+
+.hora{
+    
+    margin:auto 0 ;
+    background:#6d61c7;
+    border-radius: 0.7rem;
+    color: #ffffff;
+    padding: 0.3rem 0;
+}
+
+.materia{
+    background: rgb(236, 236, 236);
+    border-radius: 0.7rem;
+    padding: 1rem 0.7rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.materia p{
+    margin: auto 0;
+}
+
+.materia.el{
+    background: #f4c427;
+    
+}
+.materia.am{
+    background: #3f51b5;
+}
+
+.materia.gc{
+    background: #8bc34a;
+}
+.materia.dw{
+    background: #f44336;
+}
+.materia.cr{
+    background: #009688;
+}
